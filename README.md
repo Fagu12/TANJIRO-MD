@@ -11,7 +11,7 @@ TANJIRO-MD Multi Device is a automated whatsapp bot created by <a href="https://
 ## ```Connect With Me```
 <p align="center">
 <a href="https://wa.me13654422946/"><img src="https://img.shields.io/badge/Contact FAGU-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<a href="https://chat.whatsapp.com/LSHTaeqMMKr4TzzDonIpLA"><img src="https://img.shields.io/badge/Join Official GC-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://chat.whatsapp.com/LSHTaeqMMKr4TzzDonIpLA"><img src="https://img.shields.io/badge/Join Official GROUP-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 <br>
 </p>
 
