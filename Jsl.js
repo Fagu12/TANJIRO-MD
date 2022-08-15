@@ -3487,11 +3487,11 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
     case 'donasi': case 'donate': case 'sewabot': case 'sewa': {
-                reply(`ɢɪᴛ ʟɪɴᴋ : https://github.com/dominator454/Alena-MD\n\nɪɴsᴛᴀ : ${myweb}`)
+                reply(`ɢɪᴛ ʟɪɴᴋ : https://github.com/Fagu12/TANJIRO-MD\n\nɪɴsᴛᴀ : ${myweb}`)
             }
             break
             case 'sc': case 'git': {
-                reply(`ɢɪᴛ ʟɪɴᴋ : https://github.com/dominator454/Alena-MD\n\nɪɴsᴛᴀ : ${myweb}`)
+                reply(`ɢɪᴛ ʟɪɴᴋ : https://github.com/Fagu12/TANJIRO-MD\n\nɪɴsᴛᴀ : ${myweb}`)
             }
             break
 case 'allmenu': {
