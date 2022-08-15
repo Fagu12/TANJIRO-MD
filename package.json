@@ -1,5 +1,5 @@
 {
-  "name": "Alena-MD",
+  "name": "TANJIRO-MD",
   "version": "2.0.0",
   "description": "WhatsApp Using Lib Baileys Multi Device",
   "main": "index.js",
@@ -69,10 +69,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dominator454/Alena-MD.git"
+    "url": "git+https://github.com/Fagu12/TANJIRO-MD.git"
   },
   "bugs": {
-    "url": "https://github.com/dominator454/Alena-MD/issues"
+    "url": "https://github.com/Fagu12/TANJIRO-MD/issues"
   },
-  "homepage": "https://github.com/dominator454/Alena-MD#readme"
+  "homepage": "https://github.com/Fagu12/TANJIRO-MD#readme"
 }
