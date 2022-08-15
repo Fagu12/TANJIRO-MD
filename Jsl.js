@@ -3332,7 +3332,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 │╰────────────┈ ⳹
 │ Tɪᴍᴇ : ${moment.tz('Asia/Kolkata')}
 ├────────────────
-│ Dᴀᴛᴇ : ${format('DD/MM/HH:mm:ss')}
+│ Dᴀᴛᴇ : ${format('DD/MM/YY:mm:ss')}
 ╰━━━━━━━━━━━━┈ ❋ཻུ۪۪⸙`,
                             hydratedButtons: [{
                                 urlButton: {
