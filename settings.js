@@ -1,8 +1,8 @@
 //═══════════════════════════════════════════════════════//
-// 𝚃𝙷𝙸𝚂 𝙱𝙶𝙼 𝙱𝙾𝚃 𝙲𝙾𝙳𝙴𝚁 𝙱𝚈 DOMINATOR 
+// 𝚃𝙷𝙸𝚂 𝙱𝙶𝙼 𝙱𝙾𝚃 𝙲𝙾𝙳𝙴𝚁 𝙱𝚈 FADHIL
 // 𝚈𝙾𝚄𝚁 𝙴𝙳𝙸𝚃𝙸𝙽𝙶 𝙾𝚁 𝙲𝙾𝙿𝚈  
 // 𝚈𝙾𝚄 𝙲𝚁𝙴𝙳𝙸𝚃 𝚁𝙴𝙼𝙾𝚅𝙴 𝙱𝚄𝚃 
-// 𝙹𝙴𝚂𝚃 𝚂𝙰𝙿𝙿𝙾𝚁𝚃 𝙼𝙴 𝙿𝙻𝚉 
+// 𝙹US𝚃 𝚂U𝙿𝙿𝙾𝚁𝚃 𝙼𝙴 𝙿𝙻𝚉 
 //════════════════════════════//
 const fs = require('fs')
 const chalk = require('chalk')
@@ -18,20 +18,20 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['919968778724']
-global.premium = ['919968778724']
-global.ownernomer = '919968778724'
-global.ownername = '𝑺𝑶𝑼𝑳 𝑫𝑶𝑴𝑰𝑵𝑨𝑻𝑶𝑹'
-global.botname = '𝑫𝑶𝑴𝑰𝑵𝑨𝑻𝑶𝑻 𝑺𝑬𝑹 𝑩𝑶𝑻'
+global.owner = ['13654422946']
+global.premium = ['13654422946']
+global.ownernomer = '13654422946'
+global.ownername = '𝐹𝛥𝐺𝑈'
+global.botname = '𝑇𝛥𝛮𝐽𝛪𝑅𝛩'
 global.caption = 'ᴄᴏɴᴛᴀᴄᴛ ᴏᴡɴᴇʀ'
-global.footer = '© sᴇʀ ᴅᴏᴍɪɴᴀᴛᴏʀ ™'
+global.footer = '© 𝐹𝛥𝐺𝑈 𝑇𝛨𝛥𝑇 𝑆𝛩𝑈𝛮𝐷 𝛯𝛮𝛩𝑈𝐺𝛨 𝐹𝛩𝑅 𝛥𝐿𝐿'
 global.watermark = "©Alena Bot Inc ™." //ur watermark
 global.ig = 'https://github.com/dominator454'
 global.region = 'delhi'
-global.sc = 'https://github.com/dominator454/Alena-MD'
-global.myweb = 'https://youtube.com/channel/UCg4QaZEcldHdC5Y6kO1VDVg'
-global.packname = '𝑰𝑻𝒁 𝑴𝑬 𝑺𝑶𝑼𝑳 𝑫𝑶𝑴𝑰𝑵𝑨𝑻𝑶𝑻'
-global.author = '𝑰𝑻𝒁 𝑴𝑬 𝑺𝑶𝑼𝑳 𝑫𝑶𝑴𝑰𝑵𝑨𝑻𝑶𝑹'
+global.sc = 'https://github.com/Fagu12/TANJIRO-MD'
+global.myweb = 'https://youtube.com/channel/UCrnPCbv7jIKqAXQTllDV6Ng'
+global.packname = '𝐹𝛥𝐺𝑈🥵'
+global.author = '𝑇𝛥𝛮𝐽𝛪𝑅𝛩'
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
