@@ -3312,7 +3312,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             jpegThumbnail: fs.readFileSync('./media/Alena.jpg')},
                            hydratedFooterText: `┌─❖
 
-┌─❖                           
+                           
 │「 Hi 👋 」
 └┬❖ 「 ${pushname} 」
 ┌┤✑  Hello TANJRO Bot Is Online🎉
