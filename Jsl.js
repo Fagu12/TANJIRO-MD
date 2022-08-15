@@ -1,8 +1,8 @@
 //═══════════════════════════════════════════════════════//
-// 𝚃𝙷𝙸𝚂 𝙱𝙶𝙼 𝙱𝙾𝚃 𝙲𝙾𝙳𝙴𝚁 𝙱𝚈 DOMINATOR
+// 𝚃𝙷𝙸𝚂 𝙱𝙶𝙼 𝙱𝙾𝚃 𝙲𝙾𝙳𝙴𝚁 𝙱𝚈 𝐹𝛥𝐷𝛨𝛪𝐿
 // 𝚈𝙾𝚄𝚁 𝙴𝙳𝙸𝚃𝙸𝙽𝙶 𝙾𝚁 𝙲𝙾𝙿𝚈  
 // 𝚈𝙾𝚄 𝙲𝚁𝙴𝙳𝙸𝚃 𝚁𝙴𝙼𝙾𝚅𝙴 𝙱𝚄𝚃 
-// 𝙹𝙴𝚂𝚃 𝚂𝙰𝙿𝙿𝙾𝚁𝚃 𝙼𝙴 𝙿𝙻𝚉 
+// 𝙹u𝚂𝚃 𝚂u𝙿𝙿𝙾𝚁𝚃 𝙼𝙴 𝙿𝙻𝚉 
 //════════════════════════════//
 require('./settings')
 const { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require('@adiwajshing/baileys')
@@ -3310,7 +3310,8 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./media/Alena.jpg')},
-                            hydratedFooterText: `┌─❖                         
+                            hydratedFooterText: `┌─❖
+┌─❖                                                     
 │「 Hi 👋 」
 └┬❖ 「 ${pushname} 」
 ┌┤✑  Alena-MD With You Forever 
@@ -3331,7 +3332,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 │╰────────────┈ ⳹
 │ Tɪᴍᴇ : ${moment.tz('Asia/Kolkata')}
 ├────────────────
-│ Dᴀᴛᴇ : ${format('DD/MM HH:mm:ss')}
+│ Dᴀᴛᴇ : ${format('DD/MM/HH:mm:ss')}
 ╰━━━━━━━━━━━━┈ ❋ཻུ۪۪⸙`,
                             hydratedButtons: [{
                                 urlButton: {
