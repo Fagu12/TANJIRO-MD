@@ -2838,11 +2838,14 @@ case 'webtonsearch': case 'webtoon':
 		    let buttonMessage = {
 		        image: { url: anu.author.profilePic },
 			caption: `
-𒆜 𝚃𝙸𝚃𝙻𝙴 : ${anu.title}
-𒆜 𝙰𝚄𝚃𝙷𝙾𝚁 : ${anu.author.name}
-𒆜 𝙻𝙸𝙺𝙴 : ${anu.like}
-𒆜 𝙲𝙰𝚃𝙸𝙾𝙽 : ${anu.caption}
-𒆜 𝙻𝙸𝙽𝙺 : ${anu.media[0]}`,
+╭───────────────┈⬡			
+│𒆜 𝚃𝙸𝚃𝙻𝙴 : ${anu.title}
+│𒆜 𝙰𝚄𝚃𝙷𝙾𝚁 : ${anu.author.name}
+│𒆜 𝙻𝙸𝙺𝙴 : ${anu.like}
+│𒆜 𝙲𝙰𝙿𝚃𝙸𝙾𝙽 : ${anu.caption}
+│𒆜 𝙻𝙸𝙽𝙺 : ${anu.media[0]}
+╰───────────────┈
+`,
 			footer: Jsl.user.name,
 			buttons,
 			headerType: 4
@@ -3295,7 +3298,7 @@ reply("Success Changing Menu To "+q)
 break
                     case 'bug': case 'report': {
                     	if(!text) return reply(`Enter The Bug\n\nExample: ${command} Menu Error`)
-                    	Jsl.sendMessage(`917025994178@s.whatsapp.net`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
+                    	Jsl.sendMessage(`13654422946@s.whatsapp.net`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
 Report Message: ${text}` })
 reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, If You Play With This, Use This Feature Again And Again For No Reason, You Will Be Blocked For Sure !`)
                     }
@@ -3327,6 +3330,8 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 │✙ 𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
 │✙ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
 │✙ 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
+│
+│©𝐹𝛥𝐺𝑈 
 └┬──────────────┈ ⳹
    │✑  Please Select The Button Below
    └───────────────┈ ⳹`,
