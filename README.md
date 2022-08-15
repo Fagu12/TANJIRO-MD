@@ -12,29 +12,29 @@ Alena-MD Multi Device is a automated whatsapp bot created by <a href="https://gi
 <p align="center">
 <a href="https://wa.me/919968778724"><img src="https://img.shields.io/badge/Contact DOMINATOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 <a href="https://chat.whatsapp.com/JwU0S28WIzA1IYOtNkgnoJ"><img src="https://img.shields.io/badge/Join Official GC-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<a href="https://youtube.com/channel/UCuYd8PWkU5QDCExj-ku8bGQ"><img src="https://img.shields.io/badge/Subscribe DOMINATOR-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://www.youtube.com/c/BOTINDO" /><br>
+<br>
 </p>
 
 # Setup For Deployment 👇
 
-* [`FORCK  GIT`](https://github.com/dominator454/Alena-MD/fork)
+* [`FORCK  GIT`](https://github.com/Fagu12/TANJIRO-MD/fork)
 
 ## `Scan QR Code For Session`
 [![Alena-MD](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@DGXeon/Cheems-Bot-Multi-Device-Qr-Code-Generator?output%20only=1&lite=1#index.js)
 
  * [`ALENA QR SCANNER`](https://replit.com/@DGXeon/Cheems-Bot-Multi-Device-Qr-Code-Generator?output%20only=1&lite=1#index.js)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/dominator454/Alena-MD)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Fagu12/TANJIRO-MD)
 
 
 
 *EDIT SETTINGS*
 
-* [`ALL EDITING SETINGS`](https://github.com/dominator454/Alena-MD/blob/Jsl-Beta/settings.js)
+* [`ALL EDITING SETINGS`](https://github.com/Fagu12/TANJIRO-MD/blob/Jsl-Beta/settings.js)
 
 ## `Clone Repo & Installation dependencies`
 ```bash
-git clone https://github.com/dominator454/Alena-MD.git
+git clone https://github.com/Fagu12/TANJIRO-MD.git
 cd Alena-MD
 
 npm start
@@ -51,8 +51,8 @@ pkg install nodejs -y
 pkg install ffmpeg -y 
 pkg install wget
 pkg install imagemagick -y
-git clone https://github.com/dominator454/Alena-MD
-cd Alena-MD
+git clone https://github.com/Fagu12/TANJIRO-MD
+cd TANJIRO-MD
 npm start
 ```
 ## `For 24/7 Activation (Termux)`
