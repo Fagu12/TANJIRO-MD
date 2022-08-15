@@ -2833,7 +2833,7 @@ case 'webtonsearch': case 'webtoon':
 		if (anu.type == 'video') {
 		    let buttons = [
                         {buttonId: `ytmp3 ${anu.media[0]} 128kbps`, buttonText: {displayText: '🎵Audio🎵'}, type: 1},
-                        {buttonId: `ytmp4 ${anu.media[0]} 360p`, buttonText: {displayText: '📽️Video📽️'}, type: 1}
+                        {buttonId: `ytmp4 ${anu.media[0]} 1080p`, buttonText: {displayText: '📽️Video📽️'}, type: 1}
                     ]
 		    let buttonMessage = {
 		        image: { url: anu.author.profilePic },
@@ -2844,8 +2844,7 @@ case 'webtonsearch': case 'webtoon':
 │𒆜 𝙻𝙸𝙺𝙴 : ${anu.like}
 │𒆜 𝙲𝙰𝙿𝚃𝙸𝙾𝙽 : ${anu.caption}
 │𒆜 𝙻𝙸𝙽𝙺 : ${anu.media[0]}
-╰───────────────┈
-`,
+╰───────────────┈`,
 			footer: Jsl.user.name,
 			buttons,
 			headerType: 4
