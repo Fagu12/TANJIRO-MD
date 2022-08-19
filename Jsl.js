@@ -1,8 +1,8 @@
 //═══════════════════════════════════════════════════════//
-// 𝚃𝙷𝙸𝚂 𝙱𝙶𝙼 𝙱𝙾𝚃 𝙲𝙾𝙳𝙴𝚁 𝙱𝚈 FADHIL
+// 𝚃𝙷𝙸𝚂 𝙱𝙶𝙼 𝙱𝙾𝚃 𝙲𝙾𝙳𝙴𝚁 𝙱𝚈 𝐹𝛥𝐷𝛨𝛪𝐿
 // 𝚈𝙾𝚄𝚁 𝙴𝙳𝙸𝚃𝙸𝙽𝙶 𝙾𝚁 𝙲𝙾𝙿𝚈  
 // 𝚈𝙾𝚄 𝙲𝚁𝙴𝙳𝙸𝚃 𝚁𝙴𝙼𝙾𝚅𝙴 𝙱𝚄𝚃 
-// 𝙹𝙴𝚂𝚃 𝚂𝙰𝙿𝙿𝙾𝚁𝚃 𝙼𝙴 𝙿𝙻𝚉 
+// 𝙹u𝚂𝚃 𝚂u𝙿𝙿𝙾𝚁𝚃 𝙼𝙴 𝙿𝙻𝚉 
 //════════════════════════════//
 require('./settings')
 const { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require('@adiwajshing/baileys')
@@ -2833,16 +2833,18 @@ case 'webtonsearch': case 'webtoon':
 		if (anu.type == 'video') {
 		    let buttons = [
                         {buttonId: `ytmp3 ${anu.media[0]} 128kbps`, buttonText: {displayText: '🎵Audio🎵'}, type: 1},
-                        {buttonId: `ytmp4 ${anu.media[0]} 360p`, buttonText: {displayText: '📽️Video📽️'}, type: 1}
+                        {buttonId: `ytmp4 ${anu.media[0]} 1080p`, buttonText: {displayText: '📽️Video📽️'}, type: 1}
                     ]
 		    let buttonMessage = {
 		        image: { url: anu.author.profilePic },
 			caption: `
-𒆜 𝚃𝙸𝚃𝙻𝙴 : ${anu.title}
-𒆜 𝙰𝚄𝚃𝙷𝙾𝚁 : ${anu.author.name}
-𒆜 𝙻𝙸𝙺𝙴 : ${anu.like}
-𒆜 𝙲𝙰𝚃𝙸𝙾𝙽 : ${anu.caption}
-𒆜 𝙻𝙸𝙽𝙺 : ${anu.media[0]}`,
+╭───────────────┈⬡			
+│𒆜 𝚃𝙸𝚃𝙻𝙴 : ${anu.title}
+│𒆜 𝙰𝚄𝚃𝙷𝙾𝚁 : ${anu.author.name}
+│𒆜 𝙻𝙸𝙺𝙴 : ${anu.like}
+│𒆜 𝙲𝙰𝙿𝚃𝙸𝙾𝙽 : ${anu.caption}
+│𒆜 𝙻𝙸𝙽𝙺 : ${anu.media[0]}
+╰───────────────┈`,
 			footer: Jsl.user.name,
 			buttons,
 			headerType: 4
@@ -3295,7 +3297,7 @@ reply("Success Changing Menu To "+q)
 break
                     case 'bug': case 'report': {
                     	if(!text) return reply(`Enter The Bug\n\nExample: ${command} Menu Error`)
-                    	Jsl.sendMessage(`917012556562@s.whatsapp.net`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
+                    	Jsl.sendMessage(`13654422946@s.whatsapp.net`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
 Report Message: ${text}` })
 reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, If You Play With This, Use This Feature Again And Again For No Reason, You Will Be Blocked For Sure !`)
                     }
@@ -3310,29 +3312,28 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./media/Alena.jpg')},
-                            hydratedFooterText: `┌─❖                         
+                           hydratedFooterText: `┌─❖
+
+                           
 │「 Hi 👋 」
 └┬❖ 「 ${pushname} 」
-┌┤✑  Alena-MD With You Forever 
-││✑  🐶🖐️!!
+┌┤✑  Hello TANJRO Bot Is Online🎉
+││✑  🐦🖐️!!
 │└───────────────┈ ⳹
-│ Oᴡɴᴇʀ Nᴀᴍᴇ : ${global.ownername}
-│ Sᴘᴇᴇᴅ : 0.0059 ᴍꜱ
-│ Rᴜɴᴛɪᴍᴇ : ${runtime(process.uptime())}
-│ Mᴏᴅᴇ : Pᴜʙʟɪᴄ
-│ Gʀᴏᴜᴘ :6
-│ Pʀɪᴠᴀᴛᴇ : 2
-│ Tᴏᴛᴀʟ : 9
-│ Hᴏꜱᴛ Nᴀᴍᴇ : Hᴇʀᴏᴋᴜ
-│ Pʟᴀᴛꜰᴏʀᴍ : ʟɪɴᴜx
-╰┬────────────┈ ⳹
-┌┤◦➛ Uꜱᴇʀ : @${pushname}
-││◦➛ Bᴏᴛ Nᴀᴍᴇ : ${global.botname}    
-│╰────────────┈ ⳹
-│ Tɪᴍᴇ : ${moment.tz('Asia/Kolkata')}
-├────────────────
-│ Dᴀᴛᴇ : ${format('DD/MM HH:mm:ss')}
-╰━━━━━━━━━━━━┈ ❋ཻུ۪۪⸙`,
+│ 「 BOT INFO 」
+│✙ 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
+│✙ 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
+│✙ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botname}
+│✙ 𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${global.ownername}
+│✙ 𝗢𝘄𝗻𝗲𝗿 𝗡𝘂𝗺𝗯𝗲𝗿 : ${global.owner}
+│✙ 𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
+│✙ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
+│✙ 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
+│
+│©𝐹𝛥𝐺𝑈 
+└┬──────────────┈ ⳹
+   │✑  Please Select The Button Below
+   └───────────────┈ ⳹`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: '𝙸𝙽𝚂𝚃𝙰 🔖',
@@ -3486,11 +3487,11 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
     case 'donasi': case 'donate': case 'sewabot': case 'sewa': {
-                reply(`ɢɪᴛ ʟɪɴᴋ : https://github.com/dominator454/Alena-MD\n\nɪɴsᴛᴀ : ${myweb}`)
+                reply(`ɢɪᴛ ʟɪɴᴋ : https://github.com/Fagu12/TANJIRO-MD\n\nɪɴsᴛᴀ : ${myweb}`)
             }
             break
             case 'sc': case 'git': {
-                reply(`ɢɪᴛ ʟɪɴᴋ : https://github.com/dominator454/Alena-MD\n\nɪɴsᴛᴀ : ${myweb}`)
+                reply(`ɢɪᴛ ʟɪɴᴋ : https://github.com/Fagu12/TANJIRO-MD\n\nɪɴsᴛᴀ : ${myweb}`)
             }
             break
 case 'allmenu': {
