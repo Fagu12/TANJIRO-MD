@@ -10,7 +10,7 @@ TANJIRO-MD Multi Device is a automated whatsapp bot created by <a href="https://
 
 ## ```Connect With Me```
 <p align="center">
-<a href="https://api.whatsapp.com/send?phone=+17207595093"><img src="https://img.shields.io/badge/Contact FAGU-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://api.whatsapp.com/send?phone=+17053151885"><img src="https://img.shields.io/badge/Contact FAGU-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 <a href="https://chat.whatsapp.com/BC8KNGgunQT9kpQhPNDOpr"><img src="https://img.shields.io/badge/Join Official GROUP-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 <br>
 </p>
@@ -35,7 +35,7 @@ TANJIRO-MD Multi Device is a automated whatsapp bot created by <a href="https://
 ## `Clone Repo & Installation dependencies`
 ```bash
 git clone https://github.com/Fagu12/TANJIRO-MD.git
-cd Alena-MD
+cd TANJIRO-MD
 
 npm start
 ```
